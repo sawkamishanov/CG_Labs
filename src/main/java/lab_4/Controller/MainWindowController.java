@@ -6,13 +6,13 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import lab_4.Model.AlgorithmSutherlandHodgman;
 import lab_4.Model.ClippingWindow;
-import lab_4.Model.ConvexPolygon;
+import lab_4.Model.SimplePolygon;
 
 public class MainWindowController {
 
     private ClippingWindow clippingWindow = new ClippingWindow();
-    private ConvexPolygon polygon;
-    private ConvexPolygon clippingPolygon;
+    private SimplePolygon polygon;
+    private SimplePolygon clippingPolygon;
 
     @FXML
     AnchorPane anchorPane;
@@ -31,7 +31,7 @@ public class MainWindowController {
             if (clippingPolygon != null)
                 anchorPane.getChildren().remove(clippingPolygon);
 
-            clippingPolygon = new ConvexPolygon(result.getResult());
+            clippingPolygon = new SimplePolygon(result.getResult());
             anchorPane.getChildren().add(clippingPolygon);
         }
     }
@@ -39,7 +39,7 @@ public class MainWindowController {
     @FXML
     private void generateActionButton(ActionEvent actionEvent) {
         clear();
-        polygon = new ConvexPolygon();
+        polygon = new SimplePolygon();
         polygon.generateConvexPolygon();
         anchorPane.getChildren().add(polygon);
     }

@@ -6,7 +6,7 @@ import javafx.scene.shape.Polygon;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class ConvexPolygon extends Polygon {
+public class SimplePolygon extends Polygon {
 
     private final Color COLOR_CLIPPING_POLYGON = Color.VIOLET;
     private final Color COLOR_GENERATE_POLYGON = Color.GREEN;
@@ -14,9 +14,9 @@ public class ConvexPolygon extends Polygon {
 
     private ArrayList<Point2D> points = new ArrayList<>();
 
-    public ConvexPolygon() {}
+    public SimplePolygon() {}
 
-    public ConvexPolygon(ArrayList<Point2D> points) {
+    public SimplePolygon(ArrayList<Point2D> points) {
         this.points = points;
         if (points != null) {
             for (Point2D p : points) {
