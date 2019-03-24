@@ -136,11 +136,12 @@ public class MainWindowController {
 
     @FXML
     private void rotateObjectActionButton(ActionEvent actionEvent) {
+        final double degreeToRad = Math.PI/180;
         try {
             updateCoordinatePlane();
             object2D.setTransformationMatrix(new Matrix(new double[][]{
-                    {Math.cos(degreesSlider.getValue()), Math.sin(degreesSlider.getValue()), 0},
-                    {-1*Math.sin(degreesSlider.getValue()), Math.cos(degreesSlider.getValue()), 0},
+                    {Math.cos(degreesSlider.getValue()*degreeToRad), Math.sin(degreesSlider.getValue()*degreeToRad), 0},
+                    {-1*Math.sin(degreesSlider.getValue()*degreeToRad), Math.cos(degreesSlider.getValue()*degreeToRad), 0},
                     {0, 0, 1}}));
             object2D.rotateObject(new Matrix(new double[][]{
                     {1, 0, 0},

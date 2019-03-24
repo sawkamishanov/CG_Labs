@@ -49,7 +49,8 @@ public class MainWindowController {
                 if (!controlPoints.isEmpty()) {
                     if (controlPoints.peek().contains(contextMenuEvent.getX(), contextMenuEvent.getY())) {
                         anchorPane.getChildren().remove(controlPoints.pop());
-                        anchorPane.getChildren().remove(boundLines.pop());
+                        if (!boundLines.isEmpty())
+                            anchorPane.getChildren().remove(boundLines.pop());
                         drawCurve();
                     }
                 }

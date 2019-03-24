@@ -26,25 +26,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lab_2/Model/BezierCurve.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Controller/MainWindowController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="238">
+              <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/lab_2/Controller/MainWindowController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Model/ClippingWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+            <state relative-caret-position="833">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#5219#5220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Model/AlgorithmSutherlandHodgman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2414#2415#0" expanded="true" />
+                <element signature="e#2443#2444#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Model/ConvexPolygon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1313#1314#0" expanded="true" />
+                <element signature="e#1342#1343#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +99,8 @@
     <findStrings>
       <find>getObject</find>
       <find>shape</find>
+      <find>new Point2d</find>
+      <find>new Point2D</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -92,12 +126,18 @@
         <option value="$PROJECT_DIR$/src/main/java/lab_1/Model/Object.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab_1/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab_1/Model/Object2D.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/lab_1/Controller/MainWindowController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/lab_2/MainWindowView.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/lab_2/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lab_2/Model/BezierCurve.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab_4/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/lab_4/MainWindowView.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/lab_2/Controller/MainWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab_1/Controller/MainWindowController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lab_4/Model/ClippingWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab_4/Model/ConvexPolygon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab_4/Controller/MainWindowController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lab_4/Model/AlgorithmSutherlandHodgman.java" />
       </list>
     </option>
   </component>
@@ -133,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,7 +231,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CG_Labs" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +239,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,7 +248,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lab_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,19 +284,27 @@
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
               <item name="lab_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CG_Labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CG_Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+              <item name="lab_4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/IDEAProjects/CG_Labs/pom.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551050943699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553453682857" />
     <property name="last_opened_file_path" value="D:/Program Files/SceneBuilder/SceneBuilder.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -289,7 +338,7 @@
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="lab_2.Main" />
+      <option name="MAIN_CLASS_NAME" value="lab_4.Main" />
       <module name="CG_Labs" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,11 +375,19 @@
       <workItem from="1550950227533" duration="50949000" />
       <workItem from="1551116532555" duration="230000" />
       <workItem from="1551137418837" duration="2482000" />
+      <workItem from="1551196884735" duration="660000" />
+      <workItem from="1551228075607" duration="399000" />
+      <workItem from="1551271380004" duration="648000" />
+      <workItem from="1551292459370" duration="403000" />
+      <workItem from="1551477331789" duration="2905000" />
+      <workItem from="1551636153326" duration="2041000" />
+      <workItem from="1551794795386" duration="5478000" />
+      <workItem from="1553372649776" duration="37677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222246000" />
+    <option name="totallyTimeSpent" value="272457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,8 +400,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21336761" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20758355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,15 +410,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48714653" weight="0.25572005" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48650387" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.52313626" weight="0.63795424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32614556" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51285344" side_tool="true" weight="0.2920592" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51349616" side_tool="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49871466" weight="0.32839838" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48393315" weight="0.18438762" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -376,7 +434,7 @@
       <window_info anchor="right" id="Maven" order="9" weight="0.32969153" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20822622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22429305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,8 +442,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48714653" visible="true" weight="0.2920592" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48714653" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.52313626" weight="0.63795424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,10 +470,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Number.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.552/View.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.081/Controller.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.controls/javafx/scene/chart/NumberAxis.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/MainWindowView.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Parallelogram.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Shape.java" />
@@ -426,20 +480,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Main3DView.fxml" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Random.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/shape/Shape.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/shape/Polygon.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Axes.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Controller/Main3DController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/DataModel.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/event/Event.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/paint/Color.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Transformable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -454,27 +500,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/lab_1/MainWindowView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="235" column="17" lean-forward="true" selection-start-line="235" selection-start-column="17" selection-end-line="235" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Object3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,25 +518,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Controller/MainWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1636">
-          <caret line="140" column="4" lean-forward="true" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2119#2120#0" expanded="true" />
-            <element signature="e#2177#2178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/lab_2/MainWindowView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/javafx/geom/Curve.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -610,26 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab_2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Object2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/canvas/GraphicsContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -643,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="3127" column="23" selection-start-line="3127" selection-start-column="23" selection-end-line="3127" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/javafx/event/CompositeEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -659,20 +652,156 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_2/Model/BezierCurve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/lab_4/MainWindowView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Transformable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Object3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lab_2/Controller/MainWindowController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="51" column="74" selection-start-line="51" selection-start-column="74" selection-end-line="51" selection-end-column="74" />
+        <state relative-caret-position="1378">
+          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#5219#5220#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/scene/shape/Polygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="74" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Model/Object2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_1/Controller/MainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="140" column="36" lean-forward="true" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2177#2178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Model/ConvexPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Model/ClippingWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Model/AlgorithmSutherlandHodgman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2414#2415#0" expanded="true" />
+            <element signature="e#2443#2444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lab_4/Controller/MainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
           </folding>
         </state>
       </provider>
